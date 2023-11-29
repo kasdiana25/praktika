@@ -1,0 +1,14 @@
+C:\Users\gr622_kadpa\RiderProjects\raktika\rabota_1.1\bin\Debug\net7.0\rabota_1.1.exe
+C:\Users\gr622_kadpa\RiderProjects\raktika\rabota_1.1\bin\Debug\net7.0\rabota_1.1.deps.json
+C:\Users\gr622_kadpa\RiderProjects\raktika\rabota_1.1\bin\Debug\net7.0\rabota_1.1.runtimeconfig.json
+C:\Users\gr622_kadpa\RiderProjects\raktika\rabota_1.1\bin\Debug\net7.0\rabota_1.1.dll
+C:\Users\gr622_kadpa\RiderProjects\raktika\rabota_1.1\bin\Debug\net7.0\rabota_1.1.pdb
+C:\Users\gr622_kadpa\RiderProjects\raktika\rabota_1.1\obj\Debug\net7.0\rabota_1.1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gr622_kadpa\RiderProjects\raktika\rabota_1.1\obj\Debug\net7.0\rabota_1.1.AssemblyInfoInputs.cache
+C:\Users\gr622_kadpa\RiderProjects\raktika\rabota_1.1\obj\Debug\net7.0\rabota_1.1.AssemblyInfo.cs
+C:\Users\gr622_kadpa\RiderProjects\raktika\rabota_1.1\obj\Debug\net7.0\rabota_1.1.csproj.CoreCompileInputs.cache
+C:\Users\gr622_kadpa\RiderProjects\raktika\rabota_1.1\obj\Debug\net7.0\rabota_1.1.dll
+C:\Users\gr622_kadpa\RiderProjects\raktika\rabota_1.1\obj\Debug\net7.0\refint\rabota_1.1.dll
+C:\Users\gr622_kadpa\RiderProjects\raktika\rabota_1.1\obj\Debug\net7.0\rabota_1.1.pdb
+C:\Users\gr622_kadpa\RiderProjects\raktika\rabota_1.1\obj\Debug\net7.0\rabota_1.1.genruntimeconfig.cache
+C:\Users\gr622_kadpa\RiderProjects\raktika\rabota_1.1\obj\Debug\net7.0\ref\rabota_1.1.dll
