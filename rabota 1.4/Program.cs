@@ -70,29 +70,29 @@ public static void Main()
 }
  */
 
-public class Mainc
+/* public class Mainc
 {
 public static void Main()
 {
-    string[] num = File.ReadAllLines("numsTask3.txt");
+    string[] num = File.ReadAllLines("numsTask3.txt")[0].Split(',');;
     string[] nums = num[0].Split(',');
-int 
-    
-/* Задание 5
- Console.WriteLine("Введите координаты точек a, b: ");
- float a = Convert.ToSingle(Console.ReadLine());
+int */
+
+/* Задание 5 
+Console.WriteLine("Введите координаты точек a, b: ");
+float a = Convert.ToSingle(Console.ReadLine());
 float b = Convert.ToSingle(Console.ReadLine());
-float x1 = Convert.ToSingle(3);
-float x2 = Convert.ToSingle(-1);
-float y1 = Convert.ToSingle(4);
-float y2 = Convert.ToSingle(-2);
+float x1 = 3;
+float x2 = -1;
+float y1 = 4;
+float y2 = -2;
 if ((a >= x2 && a <= x1) && (b >= y2 && b <= y1))
 {
-    Console.WriteLine($"Точк c принадлежит заштрихованной области");
+    Console.WriteLine($"Точка принадлежит заштрихованной области");
 }
 else
 {
-    Console.WriteLine($"Точка c не принадлежит заштрихованной области");
+    Console.WriteLine($"Точка не принадлежит заштрихованной области");
 }
 */
 

@@ -29,8 +29,9 @@ for (int i = 2; i < 2 + tiket; i++)
 writer.Close();
  */
 
-string[] num = File.ReadAllLines("nums.txt");
-string[] nums = num[0].Split(' ');
+/* Задание 2
+  string[] num = File.ReadAllLines("nums.txt");
+  string[] nums = num[0].Split(' ');
 List<string> b = new List<string>();
 foreach (var n in nums)
 {
@@ -50,3 +51,19 @@ StreamWriter writer = new StreamWriter("nums.txt", false);
 writer.Write(number);
 writer.Close();
 
+ */
+
+
+string[] num = File.ReadAllLines("xxx.txt")[0].Split(',');;
+int max = 0;
+foreach (var n in num)
+{
+    Console.WriteLine(n);
+}
+for (int i = 0; i < num.Length; i++)
+{
+    for (int j = i + 1; j < num.Length; j++)
+    {
+        
+    }
+}
