@@ -102,14 +102,13 @@ public class Program
 Console.WriteLine("Введите текст: "); 
 string str = Console.ReadLine(); 
 int probel = 1; 
-foreach (char sym in str) 
+foreach (var n in str) 
 { 
-    if (sym == ' ') probel++; 
+    if (n == ' ') probel++; 
 } 
 Console.WriteLine(probel); 
 Console.WriteLine($"Start {str} End");
 */
-
 
 
 

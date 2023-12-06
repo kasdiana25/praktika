@@ -16,7 +16,7 @@
 */
 
 /* Задание 2
- class Program
+class Program
  {
     static void Main()
     {
@@ -25,11 +25,12 @@
         foreach (var n in words)
         {
             a += n;
+            a += " ";
         }
         Console.WriteLine(a);
     }
 }
- */
+*/
 
 /* Задание 3
  Console.WriteLine("Введите число: ");

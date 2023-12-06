@@ -70,13 +70,28 @@ public static void Main()
 }
  */
 
-/* public class Mainc
-{
-public static void Main()
-{
-    string[] num = File.ReadAllLines("numsTask3.txt")[0].Split(',');;
-    string[] nums = num[0].Split(',');
-int */
+/* Задание 4
+string[] nums = File.ReadAllLines("numsTask4.txt")[0].Split(' '); 
+int numbers = 1; 
+int kolvo = 1; 
+for (int i = 1; i < nums.Length; i++) 
+{ 
+    if (nums[i] == nums[i-1]) 
+    { 
+        numbers++; 
+        if (numbers > kolvo) 
+        { 
+            kolvo = numbers; 
+        } 
+    } 
+    else 
+    { 
+        numbers = 1; 
+    } 
+ 
+} 
+Console.WriteLine($"Количество одинаковых рядом стоящих чисел: {kolvo}");
+*/
 
 /* Задание 5 
 Console.WriteLine("Введите координаты точек a, b: ");
@@ -96,3 +111,19 @@ else
 }
 */
 
+Console.WriteLine("Введите координаты точек a, b: ");
+float a = Convert.ToSingle(Console.ReadLine());
+float b = Convert.ToSingle(Console.ReadLine());
+float x1 = -2; float x2 = 0; float x3 = 2;
+float y1 = -3; float y2 = 2; float y3 = -3;
+float d = (x1 - a) * (y2 - y1) - (x2 - x1) * (y1 - b);
+float e = (x2 - a) * (y3 - y2) - (x3 - x2) * (y2 - b);
+float f = (x3 - a) * (y1 - y3) - (x1 - x3) * (y3 - b);
+if ((d >= 0 && e >= 0 && f >= 0) || (d <= 0 && e <= 0 && f <= 0))
+{
+    Console.WriteLine("Принадлежит треугольнику");
+}
+else
+{
+    Console.WriteLine("Не принадлежит треугольнику");
+}
